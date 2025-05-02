@@ -1,5 +1,33 @@
-h1{
-    font-family: sans-serif;
-    font-size: 200px;
-    text-align:center;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.is-newyear {
+    font-size: 80px;
+    color: #ffd60a;
+    margin-bottom: 20px;
+}
+
+.countdown-label {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.countdown-timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fefefe;
 }
